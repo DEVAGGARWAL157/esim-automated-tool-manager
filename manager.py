@@ -2,12 +2,12 @@ import os
 import sys
 import subprocess
 
-def print_header():
+def show_banner():
     print("=" * 50)
     print("       ESIM AUTOMATED TOOL MANAGER (TASK 5)")
     print("=" * 50)
 
-def check_python():
+def verify_python_version():
     print("\n[INFO] Checking Python installation and version...")
     try:
         version = sys.version.split()[0]
